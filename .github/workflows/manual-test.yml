@@ -10,12 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-　　　- name: Show files
-       run: |
+      - name: Show files
+        run: |
           pwd
           ls -la
           find . -type f
-          
+
       - name: Run test
         env:
           PYTHONPATH: ${{ github.workspace }}
