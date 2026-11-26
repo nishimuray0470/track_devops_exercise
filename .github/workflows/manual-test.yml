@@ -19,4 +19,4 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
-          python main.py
+          python src/main.py
